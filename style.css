@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* index */
+
+
+.logoMenu{
+    padding:10px;
+}
+
+.mainIndex{
+width: 100%;
+background-color: #202020;
+}
+
+
+.imagenCarusel{
+width: 100%;
+height: 550px;
+}
+
+
+
+.carousel-caption{
+    right: 5%;
+    left: auto;
+    padding-bottom: 30px;
+    width: 350px;
+    background: rgba(0,0,0,0.5);
+    top: 50%;
+    border-radius: 18px;
+    bottom: auto;
+}
+
+
+.tituloIndex{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(black,darkcyan);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.cuadroPrincipal{
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+.indexContactame{
+    width: 130px;
+    height: 50px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: darkgoldenrod;
+    transition: background-color 0.5s linear;
+}
+
+.indexContactame:hover{
+    opacity: 0.8;
+}
+.contactame{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer{
+background-color: #e4dcdc;
+width: 100%;
+}
+
+.contenedor__footer{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+align-content: flex-start;
+flex-direction: row;
+}
+
+.footer__derechos--estilo{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes__imagenes--estilo{
+    width: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.redes__titulo--estilo{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes__seguime--estilo{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion__contenido--estilo{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* portfolio */
+
+.mainPortfolio{
+    background-color: #202020;
+    width: 100%;
+}
+
+.tituloPortfolio{
+    color: white;
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 20px;
+}
+
+.fotosPortfolio{
+    color:white;
+    text-align: left;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 20px;
+}
+
+.contenedorFotos{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:25%,25%;
+    grid-gap: 5px;
+}
+
+.imagenesPortfolio{
+    width: 100%;
+    transform: .2s;
+}
+
+.imagenesPortfolio:hover{
+    transform: scale(1.5);
+}
+
+.videosPortfolio{
+    color: white;
+    text-align: left;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 20px;
+}
+
+
+/* contacto */
+
+.mainContacto{
+    width: 100%;
+    background-color: #202020;
+}
+.tituloContacto {
+    color: white;
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 20px;
+}
+
+.formContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: darkcyan;
+    border-radius:10px;
+    width: 610px;
+	padding: 20px;
+    margin: auto;
+
+}
+
+.estiloFormulario{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 10em;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+
+/* servicios */
+
+.mainServicios{
+    width: 100%;
+    background-color: #202020;
+    margin: auto;
+}
+
+
+.tituloServicios {
+    color: white;
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+table,td{
+    text-align: left;
+    border: 2px solid;
+    margin: 0;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+/* QUIEN SOY */
+
+.mainQuiensoy{
+    width: 100%;
+    margin: auto;
+    background-color:#202020;
+}
+
+.mainQuiensoy__titulo--estilo{
+    color:white;
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 20px;
+}
+
+.contenedor__Quiensoy{
+    width: 100%;
+    width: 1200px;
+}
+
+.Quiensoy{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.Quiensoy__imagen{
+width: 200px;
+}
+
+.Quiensoy__imagen--tamaño{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+
+.Quiensoy__parrafo{
+    width: 800px;
+    height: 300px;
+    background-color: lightseagreen;
+}
+
+.Quiensoy__parrafo--estilo{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.Quiensoy__imagen--tamaño{
+    width: 200px;
+
+}
+
+
+.datos{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.datos__texto{
+    background-color: darkcyan;
+    width: 200px;
+    height: 200px;
+}
+
+.datos__texto--estilo{
+    text-align: left;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+
+.datos__contactame{
+    background-color: lightseagreen;
+    width: 800px;
+    height: 200px;
+}
+
+.contactame__parrafo--estilo{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contactame__boton{
+    width: 200px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 20px;
+    background-color:black;
+    transition: background-color 0.5s linear;
+}
+
+.contactame__boton:hover{
+    opacity: 0.8;
+}
+
+.contactame__boton--estilo{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
