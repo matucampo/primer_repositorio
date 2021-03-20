@@ -1,0 +1,41 @@
+.mainPortfolio{
+    background-color: #202020;
+    width: 100%;
+}
+
+.tituloPortfolio{
+    color: white;
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 20px;
+}
+
+.fotosPortfolio{
+    color:white;
+    text-align: left;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 20px;
+}
+
+.contenedorFotos{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:25%,25%;
+    grid-gap: 5px;
+}
+
+.imagenesPortfolio{
+    width: 100%;
+    transform: .2s;
+}
+
+.imagenesPortfolio:hover{
+    transform: scale(1.5);
+}
+
+.videosPortfolio{
+    color: white;
+    text-align: left;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 20px;
+}
