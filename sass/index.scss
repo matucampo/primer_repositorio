@@ -1,27 +1,34 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+}
+
 .logoMenu{
     padding:10px;
 }
 
 .mainIndex{
 width: 100%;
-background-color: #202020;
 }
 
-
+.carousel-inner{
+    width: 100%;
+    margin: 0;
+}
 .imagenCarusel{
 width: 100%;
-height: 550px;
+height: 600px;
 }
-
 
 
 .carousel-caption{
-    right: 5%;
+    right: 10%;
     left: auto;
     padding-bottom: 30px;
-    width: 350px;
+    width: 400px;
     background: rgba(0,0,0,0.5);
-    top: 50%;
+    top: 40%;
     border-radius: 18px;
     bottom: auto;
 }
@@ -29,7 +36,7 @@ height: 550px;
 
 .tituloIndex{
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Allerta Stencil', sans-serif;
     text-align: center;
     background-image: linear-gradient(black,darkcyan);
@@ -85,7 +92,7 @@ flex-direction: row;
 }
 
 .redes__imagenes--estilo{
-    width: 50px;
+    width: 40px;
     padding: 10px;
     margin-top: 10px;
     margin: auto;
