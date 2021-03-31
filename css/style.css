@@ -16,7 +16,7 @@
 
 .imagenCarusel {
   width: 100%;
-  height: 600px; }
+  height: 650px; }
 
 .carousel-caption {
   right: 10%;
@@ -198,91 +198,30 @@ footer {
 
 .mainQuiensoy {
   width: 100%;
-  margin: auto;
-  background-color: #202020; }
+  margin: auto; }
 
 .mainQuiensoy__titulo--estilo {
-  color: white;
+  color: black;
   text-align: center;
   font-family: 'Allerta Stencil', sans-serif;
   margin: 20px; }
 
-.contenedor__Quiensoy {
-  width: 100%;
-  width: 1200px; }
+.Quiensoy__imagen--tamaño {
+  width: 300px;
+  text-align: right; }
 
-.Quiensoy {
+.quiensoy__texto {
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
   align-content: center;
   align-items: center; }
 
-.Quiensoy__imagen {
-  width: 200px; }
-
-.Quiensoy__imagen--tamaño {
-  display: block;
-  width: 400px;
-  height: 300px; }
-
-.Quiensoy__parrafo {
-  width: 800px;
-  height: 300px;
-  background-color: lightseagreen; }
-
-.Quiensoy__parrafo--estilo {
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
+.quiensoy__texto--estilo {
+  color: black;
   text-align: center; }
 
-.Quiensoy__imagen--tamaño {
-  width: 200px; }
-
-.datos {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.datos__texto {
-  background-color: darkcyan;
-  width: 200px;
-  height: 200px; }
-
-.datos__texto--estilo {
-  text-align: left;
-  font-size: 9px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-weight: bold; }
-
-.datos__contactame {
-  background-color: lightseagreen;
-  width: 800px;
-  height: 200px; }
-
-.contactame__parrafo--estilo {
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center; }
-
-.contactame__boton {
-  width: 200px;
-  padding: 15px;
-  margin: auto;
-  margin-top: 20px;
-  background-color: black;
-  transition: background-color 0.5s linear; }
-
-.contactame__boton:hover {
-  opacity: 0.8; }
-
-.contactame__boton--estilo {
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-weight: bold; }
+.quiensoy__icono--estilo {
+  width: 50px; }
 
 .mainContacto {
   width: 100%;
