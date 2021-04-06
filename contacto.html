@@ -16,7 +16,7 @@
 <body>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+            <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="imagenes/logo completo.png" width="80" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,8 +44,11 @@
         </nav>
     </header>
 <main class="mainContacto">
-    <div>
+    <div class="contenedor__contacto">
+    <div class="contenedor__foto">
+        <img class="contenedor__foto--estilo" src="imagenes/Logo.png" alt="">
         <h1 class="tituloContacto">Contacto</h1>
+        <p class="contacto__parrafo--estilo">COMPLETA EL FORMULARIO Y OBTENÉ TU PRESUPUESTO</p>
     </div>
 <form class="formContacto">
     <p class="estiloFormulario">
@@ -77,13 +80,14 @@
         <input type="checkbox" name="¿Desea recibir novedades sobre los servicios?" id="">
     </p>
     <p class="estiloFormulario">
-        <textarea name="Comentarios" id="" cols="30" rows="10">Escriba aqui su comentario</textarea>
+        <textarea name="Comentarios" id="" cols="30" rows="10">Escriba aquí su comentario</textarea>
     </p>
     <p class="estiloFormulario">
         <input type="reset" value="Limpiar Formulario">
         <input type="submit" value="Enviar">
     </p>
 </form>
+</div>
 </main> 
 <footer>
     <div class="contenedor__footer">

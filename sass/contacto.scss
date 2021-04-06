@@ -1,32 +1,54 @@
 .mainContacto{
     width: 100%;
-    background-color: #202020;
+    background-color: white;
+}
+.contenedor__contacto{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px ;
+    margin-left: 50px;
 }
 .tituloContacto {
-    color: white;
+    color:black;
     text-align: center;
     font-family: 'Allerta Stencil', sans-serif;
-    margin: 20px;
+    position: absolute;
+    top: 100px;
+
 }
 
+.contacto__parrafo--estilo{
+    color: black;
+    font-size: 20px;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold; 
+    top: 150px;
+    position: absolute;
+}
+.contenedor__foto--estilo{
+    width: 600px;
+}
 .formContacto{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    align-content: center;
-    background-color: darkcyan;
+    align-content: flex-start;
+    background-color: rgba(53, 49, 49, 0.575);
     border-radius:10px;
-    width: 610px;
-	padding: 20px;
+    width: 500px;
+	padding: 5px;
     margin: auto;
+    border: solid black;
 
 }
 
 .estiloFormulario{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 input{
@@ -37,4 +59,5 @@ input{
 
 textarea{
     vertical-align: top;
+
 }
