@@ -24,17 +24,17 @@
 }
 
 .fotosPortfolio{
-    color:white;
-    text-align: left;
+    color:black;
+    text-align: center;
     font-family: 'Allerta Stencil', sans-serif;
     margin: 20px;
 }
 
 .contenedorFotos{
+    max-width: 1200px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns:repeat(4,1fr);
-    grid-template-rows:20%,20%;
-    grid-gap: 5px;
+    grid-gap: 1rem;
 }
 
 .imagenesPortfolio{
@@ -46,9 +46,25 @@
     transform: scale(1.4);
 }
 
+
 .videosPortfolio{
-    color: white;
-    text-align: left;
+    color:black;
+    text-align: center;
     font-family: 'Allerta Stencil', sans-serif;
     margin: 20px;
+}
+
+.contenedor__video {
+	position: relative;
+	padding-bottom: 56.25%; /* proporción 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
