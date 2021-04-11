@@ -16,7 +16,7 @@
 
 .imagenCarusel {
   width: 100%;
-  height: 650px; }
+  height: 800px; }
 
 .carousel-caption {
   right: 10%;
@@ -70,16 +70,22 @@ footer {
   align-content: flex-start;
   flex-direction: row; }
 
+.footer__redes .footer__informacion .footer__derechos {
+  max-width: 450px; }
+
 .footer__derechos--estilo {
   font-weight: bold;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif; }
 
 .redes__imagenes--estilo {
-  width: 40px;
-  padding: 10px;
-  margin-top: 10px;
-  margin: auto; }
+  width: 30px;
+  height: 30px;
+  margin-top: 5px; }
+
+label {
+  margin-top: 12px;
+  margin-left: 10px; }
 
 .redes__titulo--estilo {
   font-weight: bold;
@@ -102,27 +108,25 @@ footer {
   box-sizing: border-box; }
 
 .mainServicios {
-  max-width: 100%;
-  margin: auto; }
+  width: 100%; }
 
-.mainservicios__imagen--estilo {
+.imagenservicios--tamaño {
   width: 100%;
-  height: 600px; }
+  height: 800px; }
 
-.contenedor__tituloservicios {
-  background-color: rgba(243, 205, 205, 0.397);
-  width: 200px;
+.contenedor__titulo {
   position: absolute;
   top: 50%;
-  bottom: auto;
-  right: 10%;
-  left: auto; }
+  left: 35%; }
 
-.tituloServicios {
+.servicios__titulo--estilo {
+  background-color: rgba(167, 107, 184, 0.466);
+  width: 400px;
+  text-align: center;
   color: white;
   text-align: center;
   font-family: 'Allerta Stencil', sans-serif;
-  font-size: 1er; }
+  font-size: 80px; }
 
 .contenedor__servicios {
   display: flex;
@@ -153,27 +157,31 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 50px; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .mainPortfolio {
   width: 100%; }
 
-.mainportfolio__imagen--estilo {
+.imagenportfolio--tamaño {
   width: 100%;
-  height: 600px; }
+  height: 800px; }
 
 .contenedor__tituloportfolio {
-  background-color: rgba(243, 205, 205, 0.397);
-  width: 200px;
+  background-color: rgba(88, 84, 84, 0.514);
   position: absolute;
   top: 50%;
-  bottom: auto;
-  right: 10%;
-  left: auto; }
+  left: 35%; }
 
 .tituloPortfolio {
+  width: 400px;
+  text-align: center;
   color: white;
   text-align: center;
   font-family: 'Allerta Stencil', sans-serif;
-  margin: 20px; }
+  font-size: 80px; }
 
 .fotosPortfolio {
   color: black;
@@ -214,46 +222,50 @@ iframe {
   width: 100%;
   height: 100%; }
 
-.mainQuiensoy {
-  max-width: 100%; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.mainquiensoy__imagen--estilo {
+.mainQuiensoy {
+  width: 100%; }
+
+.imagenquiensoy--tamaño {
   width: 100%;
-  height: 600px; }
+  height: 800px; }
 
 .contenedor__tituloquiensoy {
-  background-color: rgba(14, 12, 12, 0.397);
-  width: 500px;
   position: absolute;
   top: 50%;
-  bottom: auto;
-  right: 5%;
-  left: auto; }
+  left: 35%; }
 
 .tituloquiensoy {
+  background-color: rgba(20, 19, 19, 0.514);
+  width: 400px;
+  text-align: center;
   color: white;
   text-align: center;
   font-family: 'Allerta Stencil', sans-serif;
-  margin: 10px; }
+  font-size: 80px; }
 
-.contenedor__fotopersonal {
-  margin-top: 25px; }
+.contenedor__imagenpersonal {
+  padding: 25px; }
 
-.contenedor__fotopersonal--tamaño {
-  width: 500px;
+.imagenpersonal {
+  width: 400px;
   display: block;
   margin: 0 auto; }
 
 .quiensoy__texto {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: center;
-  align-items: center;
-  margin-top: 25px; }
+  align-items: center; }
 
 .quiensoy__texto--estilo {
   color: black;
-  text-align: center; }
+  text-align: center;
+  margin: 20px; }
 
 .quiensoy__icono--estilo {
   width: 50px; }
@@ -294,9 +306,9 @@ iframe {
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
-  background-color: rgba(53, 49, 49, 0.575);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
-  width: 500px;
+  width: 450px;
   padding: 5px;
   margin: auto;
   border: solid black; }
@@ -318,6 +330,10 @@ textarea {
 @media screen and (max-width: 1100px) {
   .contenedor__footer {
     flex-wrap: wrap; }
+  .footer__redes {
+    margin-top: 20px; }
+  .footer__informacion {
+    margin-top: 20px; }
   .carousel-caption {
     margin: 0 auto;
     width: 300px; } }
@@ -325,7 +341,13 @@ textarea {
 /* Servicios */
 @media screen and (max-width: 1100px) {
   .contenedor__servicios {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .contenedor__titulo {
+    top: 50%;
+    left: 25%; }
+  .servicios__titulo--estilo {
+    font-size: 40px;
+    width: 200px; } }
 
 /* Portfolio */
 @media (min-width: 600px) {
@@ -335,3 +357,30 @@ textarea {
 @media (min-width: 900px) {
   .contenedorFotos {
     grid-template-columns: repeat(3, 1fr); } }
+
+@media screen and (max-width: 1100px) {
+  .contenedor__tituloportfolio {
+    top: 50%;
+    left: 25%; }
+  .tituloPortfolio {
+    font-size: 40px;
+    width: 200px; } }
+
+/* Quiensoy */
+@media screen and (max-width: 1100px) {
+  .contenedor__tituloquiensoy {
+    top: 20%;
+    left: 20%; }
+  .quiensoy__texto {
+    flex-direction: column; }
+  .contenedor__tituloquiensoy {
+    top: 50%;
+    left: 25%; }
+  .tituloquiensoy {
+    font-size: 40px;
+    width: 200px; } }
+
+/* Contacto */
+@media screen and (max-width: 1100px) {
+  .contenedor__contacto {
+    justify-content: column; } }
