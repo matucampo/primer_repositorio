@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="imagenes/logo completo.png" width="80" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="imagenes/Logo web.png" width="80" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,49 +44,31 @@
         </nav>
     </header>
 <main class="mainContacto">
-    <div class="contenedor__contacto">
-    <div class="contenedor__foto">
-        <img class="contenedor__foto--estilo" src="imagenes/Logo.png" alt="">
-        <h1 class="tituloContacto">Contacto</h1>
-        <p class="contacto__parrafo--estilo">COMPLETA EL FORMULARIO Y OBTENÉ TU PRESUPUESTO</p>
-    </div>
-<form class="formContacto">
-    <p class="estiloFormulario">
-        <label for="Sexo"></label>Sexo:
-        <input type="radio" name="Sexo" id="Hombre">Hombre
-        <input type="radio" name="Sexo" id="Mujer">Mujer
-    </p>
-    <p class="estiloFormulario">
-        <label for="Nombre"></label>Nombre:
-        <input type="text" name="Nombre" id="">
-        <label for="Apellido"></label>Apellido:
-        <input type="text" name="Apellido" id="">
-    </p>
-    <p class="estiloFormulario">
-        <label for="Email"></label>Email:
-        <input type="text" name="Email" id="">
-    </p>
-    <p class="estiloFormulario">
-        <label for="Estadocivil"></label>Estado civil:
-        <select name="Estado civil" id="">
-            <option value="1">Soltero/a</option>
-            <option value="2">Casado/a</option>
-            <option value="3">Divorciado/a</option>
-            <option value="4">Viudo/a</option>
-        </select>
-    </p>
-    <p class="estiloFormulario">
-        <label for="¿Desea recibir novedades sobre los servicios?"></label>¿Desea recibir novedades sobre los servicios?
-        <input type="checkbox" name="¿Desea recibir novedades sobre los servicios?" id="">
-    </p>
-    <p class="estiloFormulario">
-        <textarea name="Comentarios" id="" cols="30" rows="10">Escriba aquí su comentario</textarea>
-    </p>
-    <p class="estiloFormulario">
-        <input type="reset" value="Limpiar Formulario">
-        <input type="submit" value="Enviar">
-    </p>
-</form>
+        <div class="contenedor__titulocontacto">
+            <h2 class="titulocontacto--estilo">COMPLETA EL FORMULARIO Y OBTENÉ TU PRESUPUESTO</h2>
+        </div>
+        <div class="contenedor__formulario">
+            <form class="formulario" action="">
+                <div class="contenedor__tituloformulario">
+                    <h1 class="contenedor__tituloformulario--estilo">Contacto</h1>
+                </div>
+                <label class="label__formulario--estilo" for="nombre">Nombre:</label>
+                <input type="text" class="input__formulario--estilo" placeholder="Escriba su nombre">
+        
+                <label class="label__formulario--estilo" for="apellido">Apellido:</label>
+                <input type="text" class="input__formulario--estilo" placeholder="Escriba su Apellido">
+                
+                <label class="label__formulario--estilo" for="correo">Correo Electronico:</label>
+                <input type="email" class="input__formulario--estilo" placeholder="Escriba su correo">
+                
+                <label class="label__formulario--estilo" for="comentario">Comentario:</label>
+                <textarea class="textarea__formulario--estilo" placeholder="Escriba su comentario"></textarea>
+            
+                <input type="submit" class="boton__formulario--estilo" value="Enviar">
+            </form>
+        
+        </div>
+
 </main> 
 <footer>
     <div class="contenedor__footer">
@@ -105,7 +87,7 @@
         </div>
         <div>
         <a href="http://www.linkedin.com/in/matíascampo"><img class="redes__imagenes--estilo" src="imagenes/031-linkedin.png"alt=""></a>
-        <label class="redes__seguime--estilo" for="">Seguime en Linked In</label>
+        <label class="redes__seguime--estilo" for="">Seguime en LinkedIn</label>
         </div>
     </div>
     <div class="footer__informacion">

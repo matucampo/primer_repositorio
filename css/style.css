@@ -270,61 +270,83 @@ iframe {
 .quiensoy__icono--estilo {
   width: 50px; }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .mainContacto {
-  max-width: 100%;
+  width: 100%;
   background-color: white; }
 
-.contenedor__contacto {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 100px;
-  margin-left: 50px; }
+.contenedor__titulocontacto {
+  margin-top: 100px; }
 
-.tituloContacto {
-  color: black;
+.fotologo--tamaño {
+  width: 500px;
+  margin: 0 auto; }
+
+.titulocontacto--estilo {
   text-align: center;
-  font-family: 'Allerta Stencil', sans-serif;
-  position: absolute;
-  top: 100px; }
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; }
 
-.contacto__parrafo--estilo {
-  color: black;
-  font-size: 20px;
-  font-family: 'Allerta Stencil', sans-serif;
-  text-align: center;
-  letter-spacing: 2px;
-  font-weight: bold;
-  top: 150px;
-  position: absolute; }
-
-.contenedor__foto--estilo {
-  width: 600px; }
-
-.formContacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: flex-start;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
-  width: 450px;
-  padding: 5px;
+.contenedor__formulario .formulario {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
   margin: auto;
-  border: solid black; }
+  padding: 5px 35px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 3px; }
 
-.estiloFormulario {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 1em; }
+.contenedor__tituloformulario--estilo {
+  font-weight: normal;
+  font-family: sans-serif;
+  color: darkorange; }
 
-input {
-  border-radius: 5px;
-  border: 1px solid black;
-  width: 10em; }
+.contenedor__formulario .formulario .label__formulario--estilo {
+  display: block;
+  color: #ff851b;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative; }
 
-textarea {
-  vertical-align: top; }
+.contenedor__formulario .formulario .input__formulario--estilo, .textarea__formulario--estilo {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.contenedor__formulario .formulario .textarea__formulario--estilo {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px; }
+
+.contenedor__formulario .formulario .boton__formulario--estilo {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  background: #ff851b;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all .5s ease; }
+
+.contenedor__formulario .formulario .boton__formulario--estilo:hover {
+  background: #f29718; }
 
 /* index */
 @media screen and (max-width: 1100px) {
@@ -335,19 +357,22 @@ textarea {
   .footer__informacion {
     margin-top: 20px; }
   .carousel-caption {
-    margin: 0 auto;
-    width: 300px; } }
+    width: 300px;
+    right: 5%; } }
 
 /* Servicios */
 @media screen and (max-width: 1100px) {
   .contenedor__servicios {
     flex-wrap: wrap; }
   .contenedor__titulo {
-    top: 50%;
-    left: 25%; }
+    top: 30%;
+    left: 20%; }
   .servicios__titulo--estilo {
     font-size: 40px;
-    width: 200px; } }
+    width: 200px; }
+  .imagenservicios--tamaño {
+    height: auto;
+    margin-top: 100px; } }
 
 /* Portfolio */
 @media (min-width: 600px) {
@@ -360,25 +385,28 @@ textarea {
 
 @media screen and (max-width: 1100px) {
   .contenedor__tituloportfolio {
-    top: 50%;
-    left: 25%; }
+    top: 30%;
+    left: 20%; }
   .tituloPortfolio {
     font-size: 40px;
-    width: 200px; } }
+    width: 200px; }
+  .imagenportfolio--tamaño {
+    height: auto;
+    margin-top: 100px; } }
 
 /* Quiensoy */
 @media screen and (max-width: 1100px) {
   .contenedor__tituloquiensoy {
-    top: 20%;
+    top: 25%;
     left: 20%; }
   .quiensoy__texto {
     flex-direction: column; }
-  .contenedor__tituloquiensoy {
-    top: 50%;
-    left: 25%; }
   .tituloquiensoy {
     font-size: 40px;
-    width: 200px; } }
+    width: 200px; }
+  .imagenquiensoy--tamaño {
+    height: auto;
+    margin-top: 100px; } }
 
 /* Contacto */
 @media screen and (max-width: 1100px) {

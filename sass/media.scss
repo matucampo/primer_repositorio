@@ -13,9 +13,10 @@
     }
 
     .carousel-caption{
-        margin: 0 auto;
         width: 300px;
+        right: 5%;
     }
+
 }
 
 
@@ -28,12 +29,17 @@
     }
 
     .contenedor__titulo{
-            top: 50%;
-            left: 25%;
+            top: 30%;
+            left: 20%;
         }
         .servicios__titulo--estilo{
             font-size:40px;
             width: 200px;
+        }
+
+        .imagenservicios--tamaño{
+            height: auto;
+            margin-top: 100px;
         }
 }
 
@@ -52,12 +58,17 @@
 
   @media screen and (max-width: 1100px){
     .contenedor__tituloportfolio{
-        top: 50%;
-        left: 25%;
+        top: 30%;
+        left: 20%;
     }
     .tituloPortfolio{
         font-size:40px;
         width: 200px;
+    }
+
+    .imagenportfolio--tamaño{
+        height: auto;
+        margin-top:100px;
     }
   }
 
@@ -65,20 +76,21 @@
 
 @media screen and (max-width: 1100px){
 .contenedor__tituloquiensoy{
-    top: 20%;
+    top: 25%;
     left: 20%;}
 
    .quiensoy__texto{
       flex-direction: column;
    } 
 
-   .contenedor__tituloquiensoy{
-    top: 50%;
-    left: 25%;
-}
 .tituloquiensoy{
     font-size:40px;
     width: 200px;
+}
+
+.imagenquiensoy--tamaño{
+    height: auto;
+    margin-top:100px;
 }
 }
 
